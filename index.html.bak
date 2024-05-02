@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O. Monifa Sawyerr</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+	
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+	
+	
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+ <!-- aos css link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha512-CMgpN0mgFQwtbM8nnp7cqR0Lzng9bIdzn3RYzXf0Tqy6Bh1wll+P47XRSB0AtK7+K8zHmblXz0xMWd2wQamOzA==" crossorigin="anonymous"></script>
+
+ 
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body >
+    <nav id="desktop-nav" style="background:#0a061d;">
+        <div class="logo myCustomButton" data-aos="fade-up">O. Monifa Sawyerr</div>
+        <div>
+            <ul class="nav-links" data-aos="fade-up">
+			
+                <li><a href="#profile" class="myCustomButton">Home</a></li>
+                <li><a href="#about" class="myCustomButton">About</a></li>
+                <li><a href="#experience" class="myCustomButton">Experience</a></li>
+                <li><a href="#projects" class="myCustomButton">Projects</a></li>
+<li><a href="#contact" class="contactBtnNav">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav" style="z-index:999;">
+        <div class="logo">O. Monifa Sawyerr</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span ></span>
+                <span ></span>
+                <span ></span>
+            </div>
+			
+            <div class="menu-links" style="z-index:999;">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+				
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+          <div class="heroImgWrap">  <img src="myimg.png" alt="John Doe profile picture" data-aos="zoom-in" style="width:100%; aspect-ratio:1; object-fit:cover; border-radius:50%;
+		
+    }" />
+        </div></div>
+        <div class="section__text">
+            <p class="section__text__p1 section__textOne" >Hello, I'm</p>
+            <h1 class="title" data-aos="fade-up">O. Monifa Sawyerr</h1>
+           <p class="section__text__p2 " data-aos="fade-up"><span class="toHoverCssHome">Health Equity Advocate and Medical Student </span></p>
+<!-- <p class="section__text__p2 " data-aos="fade-up">
+ <div class="wrapperaround">
+  <div class="static-txt">I'm a</div>
+ <ul class="dynamic-txts">
+ 
+      <li><span class="toHoverCssHome">DevOps Engineer</span></li>
+      <li><span class="toHoverCssHome">Backend Developer</span></li>
+	   <li><span class="toHoverCssHome">DevOps Engineer</span></li>
+	    <li><span class="toHoverCssHome">Backend Developer</span></li>
+     </ul>
+	 </div>
+</p> -->
+                      
+		   <div class="btn-container" >
+                <button class="btn btn-color-2 myCustomButton" onclick="downloadCV()"  >
+            Download CV
+          </button>
+                <button class="btn btn-color-1 myCustomButton" onclick="document.getElementById('contact').scrollIntoView();">
+            Contact Me
+          </button>
+            </div>
+			
+<script>
+  function downloadCV() {
+    var link = document.createElement('a');
+    link.href = 'O. Monifa Sawyerr (CV) (Final).pdf';
+    link.download = 'O. Monifa Sawyerr CV.pdf';
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
+            <div id="socials-container" >
+			
+    
+     
+
+ <div class="iconsssWrap"> <i class="fab fa-linkedin iconsss myCustomButton" onclick="window.open('https://www.linkedin.com/in/o-monifa-sawyerr/', '_blank')"></i></div>
+ <div class="iconsssWrap"> <i class="fab fa-youtube iconsss myCustomButton" onclick="window.open('https://www.youtube.com/', '_blank')"></i></div>
+
+
+
+            </div>
+        </div>
+    </section>
+	
+    <section id="about" style="margin-top:50px;">
+        <p class="section__text__p1 section__textsss">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="myimg.png" alt="Profile picture" class="about-pic" data-aos="zoom-in" />
+            </div>
+          <div class="about-details-container">
+    <div class="about-containers">
+        <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3 class="myhthree">Experience</h3>
+            <p>Passionate Student Doctor and Healthcare Advocate</p>
+        </div>
+        <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3 class="myhthree">Education</h3>
+            <p>MD Candidate, University of California, Davis School of Medicine<br />Bachelor of Science, University of California, Los Angeles (UCLA)</p>
+        </div>
+    </div>
+    <div class="text-container">
+        <p style="font-size:20px;" class="myptag">
+            Passionate about equitable healthcare and committed to culturally competent care, I leverage my background in student medicine to advocate for underserved communities and mentor underrepresented STEM and medical students.
+        </p>
+    </div>
+</div>
+
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+<section id="experience">
+    <p class="section__text__p1 section__textsss">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container ">
+        <div class="about-containers">
+            <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
+                <h2 class="experience-sub-title"><span class="toHoverCss">Licenses</span></h2>
+                <div class="article-container-experience">
+                    <article  class="myArticleOne">
+                        <i class="fa fa-user-md icon myhthree" style="font-size:25px; margin-right:15px;"></i>
+                        <div>
+                            <h3 style="width:200px;"><span class="toHoverCss">CPT I License</span></h3>
+                            <p>Certified Phlebotomy Technician</p>
+                        </div>
+                    </article>
+                    <article class="myArticleThree">
+                        <i class="fa fa-heart icon myhthree" style="font-size:25px; margin-right:15px;"></i>
+                        <div>
+                            <h3 style="width:200px;"><span class="toHoverCss">Basic Life Support</span></h3>
+                            <p>Certified by American Heart Association</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container toChangeBackgroundAbout" data-aos="zoom-in">
+                <h2 class="experience-sub-title">Research</h2>
+                <div class="article-container-experience">
+                   <article  class="myArticleTwo">
+                        <i class="fa fa-flask icon myhthree" style="font-size:25px; margin-right:15px;"></i>
+                        <div>
+                            <h3 style="width:200px;"><span class="toHoverCss">Medical Research</span></h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                    <article class="myArticleThree">
+                        <i class="fa fa-book icon myhthree" style="font-size:25px;margin-right:15px;"></i>
+                        <div>
+                            <h3 style="width:200px;"><span class="toHoverCss">Academic Writing</span></h3>
+                            <p>Experienced</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='#projects'" />
+</section>
+
+
+
+
+  <section id="summary" >
+        <p class="section__text__p1 section__textsss">Get To Know More</p>
+        <h1 class="title">My Summary</h1>
+        
+		
+<div class="containerSummary">
+	
+	<main class="row">
+		
+		<!--   *******  Education Section Starts  *******   -->
+
+		<div class="col">
+		<header class="title">
+    <h2>EDUCATION</h2>
+</header>
+
+<div class="contents">
+    <div class="box">
+        <h4>2014 - 2018</h4>
+        <h3>Bachelor of Science</h3>
+        <p>University of California, Los Angeles (UCLA)</p>
+        <p>Major: Microbiology, Immunology, and Molecular Genetics</p>
+    </div>
+
+    <div class="box">
+        <h4>2021 - Present</h4>
+        <h3>MD Candidate</h3>
+        <p>University of California, Davis School of Medicine</p>
+        <p>Doctor of Medicine (Anticipated Graduation December 2025)</p>
+    </div>
+
+  
+</div>
+
+
+		</div>
+
+		<div class="col">
+			
+	<header class="title">
+    <h2>WORK EXPERIENCE</h2>
+</header>
+
+<div class="contents">
+<!--    <div class="box">
+        <h4>May 2022 - October 2022</h4>
+        <h3>Researcher</h3>
+        <p>Kaweah Health Medical Center - Department of Emergency Medicine</p>
+        <p>Conducted research on foot care awareness among unhoused individuals in Visalia, CA, implementing an educational program to promote proper foot health and prevent common ailments associated with homelessness.</p>
+    </div>
+-->
+    <div class="box">
+        <h4>September 2021 - April 2022</h4>
+        <h3>MESA Program Teacher</h3>
+        <p>Guided and mentored students in Mathematics, Engineering, Science Achievement (MESA) programs, enhancing their skills and interest in STEM fields.</p>
+    </div>
+
+    <div class="box">
+        <h4>January 2020 - August 2021</h4>
+        <h3>Phlebotomist</h3>
+        <p>San Joaquin General Hospital</p>
+        <p>Performed blood collection and handling, ensuring patient comfort and accuracy in sample preparation for laboratory analysis.</p>
+    </div>
+
+    <div class="box">
+        <h4>June 2019 - December 2019</h4>
+        <h3>Health Education and Outreach Intern</h3>
+        <p>Participated in community health initiatives, developing and delivering educational materials and programs focused on public health awareness.</p>
+    </div>
+
+    <div class="box">
+        <h4>September 2015 - September 2018</h4>
+        <h3>Peer Advisor</h3>
+        <p>UCLA Financial Aid and Scholarships </p>
+        <p>Provided counseling to undergraduate and graduate students, addressing financial aid inquiries and academic concerns, showcasing strong interpersonal
+		and problem-solving skills.</p>
+    </div>
+	
+
+  <!--  <div class="box">
+        <h4>February 2022 - Current</h4>
+        <h3>Council Member</h3>
+        <p>UC Davis School of Medicine - Diversity Advisory Council</p>
+        <p>As a council member, actively engaged in promoting diversity, equity, and inclusivity within UC Davis School of Medicine, ensuring a safe and inclusive learning environment for all students.</p>
+    </div>
+</div>
+-->
+
+		</div>
+
+		<!--   *******  Experience Section Ends   *******  -->
+	</main>
+</div>
+
+		
+    </section>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+#loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:#0a061d; /* Black background */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+   }
+/* Basic styles for the preloader */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0a061d; /* White background with transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.preloader-text {
+    text-align: center;
+}
+
+/* Animation for the text coming into view */
+@keyframes slideAndRotate {
+    from {
+        transform: translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateZ(30deg);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0) scale3d(1, 1, 1) rotateX(0deg) rotateZ(0deg);
+        opacity: 1;
+    }
+}
+
+/* Animation for the line growing */
+@keyframes fillLine {
+    from {
+        width: 0%;
+        opacity: 0;
+    }
+    to {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+/* Apply animations to elements */
+.preload-text-top, .preload-text-btm {
+    animation: slideAndRotate 1.5s ease forwards;
+}
+
+/* Fade out the whole preloader */
+@keyframes fadeOutPreloader {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.preloader.hide {
+    animation: fadeOutPreloader 0.5s ease forwards;
+    animation-delay: 3.5s; /* Adjust based on total animation time */
+}
+
+/* Ensure animations play when loaded */
+.display-xl {
+    opacity: 0; /* Set initial state to hidden */
+}
+
+.line {
+    display: block;
+    height: 32px;
+    background-color: #fff; /* Assuming a black line, adjust as needed */
+}
+.line-wrap-inner {
+    width: 100%;
+    height: 5px;
+    background-color: #eee; /* Light grey background */
+    overflow: hidden; /* Ensures the inner fill does not spill over */
+    border-radius: 20px; /* Adding a large radius to create the curve effect */
+	 transform: rotate(80deg);
+	
+}
+
+.line-fill {
+    height: 5px;
+    background-color: #7b57ff; /* The color that 'fills' the line */
+    width: 0%; /* Start with no fill */
+    animation: fillLine 2s ease forwards;
+    animation-delay: 1.5s; /* Starts after text animation */
+    border-radius: 20px; /* Ensure the fill also appears curved */
+	 transform: rotate(80deg);
+}
+
+/* Animation for the line filling */
+@keyframes fillLine {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+/* Rest of the styles remain the same as previously described */
+#curve {
+    animation: draw 2s forwards ease-out;
+    animation-delay: 1.5s; /* adjust based on when you want the animation to start */
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+
+i{
+	font-size:30px;
+}</style>
+
+<section id="projects" >
+        <p class="section__text__p1 section__textsss">Browse My Recent</p>
+        <h1 class="title">Research Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                
+				
+				
+							<div class="testmonial_slider_area text-center owl-carousel" data-aos="zoom-in">
+			 <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-1.jpg" alt="Project Image" class="projects__img">
+                    </div>
+                    <div class="projects__content">
+                        <span class="projects__subtitle">UC Davis Health</span>
+                        <h2 class="projects__title"><span class="toHoverCssAbout">Department of Neurological Surgery</span></h2>
+                        <p class="projects__description">
+                            Researched Cerebral Proliferative Angiopathy in a 2-year-old, highlighting rare symptoms, successful surgery, and its efficacy in similar cases in children.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-2.jpg" alt="Project Image" class="projects__img">
+                    </div>
+                    <div class="projects__content">
+                        <span class="projects__subtitle">UC Davis Health</span>
+                        <h2 class="projects__title"><span class="toHoverCssAbout">Department of Emergency Medicine</span></h2>
+                        <p class="projects__description">
+                            Improved pediatric intubation in Vietnam by introducing a bougie, assessing its impact through surveys, and contributing to research for better patient outcomes.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <div class="projects__image">
+                        <img src="assets/img/project-3.jpg" alt="Project Image" class="projects__img">
+                    </div>
+                    <div class="projects__content">
+                        <span class="projects__subtitle">UC Davis Health</span>
+                        <h2 class="projects__title"><span class="toHoverCssAbout">Department of Palliative Medicine</span></h2>
+                        <p class="projects__description">
+                            Conducted a year-long chart review on heart failure patients at the Supportive Medicine Clinic to analyze patient profiles, care impacts, and lay groundwork for broader support expansion.
+                        </p>
+                    </div>
+                </article>
+<article class="projects__card">
+    <div class="projects__image">
+        <img src="assets/img/project-1.jpg" alt="Project Image" class="projects__img">
+    </div>
+    <div class="projects__content">
+        <span class="projects__subtitle">Kaweah Health Medical Center</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Department of Emergency Medicine</span></h2>
+        <p class="projects__description">
+            Studied foot care awareness among Visalia's unhoused, providing tailored education and assessing impact through pre- and post-surveys for improved health outcomes.
+        </p>
+    </div>
+</article>
+
+<article class="projects__card">
+    <div class="projects__image">
+        <img src="assets/img/project-2.jpg" alt="Project Image" class="projects__img">
+    </div>
+    <div class="projects__content">
+        <span class="projects__subtitle">UCLA Department of Microbiology</span>
+        <h2 class="projects__title"><span class="toHoverCssAbout">Immunology, and Molecular Genetics</span></h2>
+        <p class="projects__description">
+            Investigated bacteriophage therapy potential, conducting wet lab experiments and genetic analysis for therapeutic application.
+        </p>
+    </div>
+</article>
+
+
+
+</div>
+	    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+<section id="contact" >
+        <p class="section__text__p1 section__textsss">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        
+		
+		<div class="contactss containerss" >
+           <form id="contactForm">
+    <div class="form">
+        <div class="form-txt" data-aos="zoom-in">
+            <h1 class="oneone">Let's Connect!</h1>
+            <span class="oneone">Don't hesitate to reach out—I'm ready to connect! Your message matters to me, and I'm dedicated to giving it the attention it 
+			deserves. Whether you've got a burning question, valuable feedback, or simply want to say hello, I'm committed to responding. I can't wait to 
+			hear from you!</span>
+        </div>
+        <div class="form-details" data-aos="zoom-in" >
+		    <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+			<input type="text" name="subject" placeholder="Subject" required id="subject" >
+
+            <textarea name="message" id="message" cols="52" rows="7" placeholder="Message" required></textarea>
+        <button type="submit" class="btn-submit" id="newOrderForm" style="color:#fff; background:#7b57ff;">Submit Message</button>
+			
+		 </div>
+    </div>
+</form>
+
+        </div>
+    </section>
+	
+	
+	
+	
+	
+
+<style>
+
+.loading-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}</style>
+
+
+<!-- Add this div for the loading animation -->
+<div id="loadingAnimation" class="loading-container">
+  <div class="loading-spinner"></div>
+</div>
+
+
+<script>
+
+var userName = document.getElementById("name");
+var userEmail = document.getElementById("email");
+var userMessage = document.getElementById("message");
+var userSubject = document.getElementById("subject");
+var orderFormSubmit = document.getElementById("newOrderForm");
+var loadingAnimation = document.getElementById("loadingAnimation");
+const body = document.querySelector("body");
+const emailRegex = /^[^\s@]+@[^\s@]+\.(com|net|org|edu|gov|mil|biz|info|name|museum|co\.uk|org\.uk|net\.uk|ac\.uk|sch\.uk|aero|asia|cat|coop|jobs|mobi|museum|tel|travel)$/i;
+
+orderFormSubmit.addEventListener("click", function(event) {
+  event.preventDefault(); 
+  
+  // Email validation
+  if (!emailRegex.test(userEmail.value)) {
+    alert('Invalid email');
+    return;
+  }
+
+  loadingAnimation.style.display = "block";
+
+  var formData = {
+    name: userName.value,
+    email: userEmail.value,
+    message: userMessage.value,
+    subject: userSubject.value,
+  };
+
+  fetch("https://bewildered-tan-tux.cyclic.cloud/send-data-monifa", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(function(response) {
+    if (response.ok) {
+      alert("Message submitted successfully.");
+      loadingAnimation.style.display = "none";
+      location.reload();
+    } else {
+      console.log("Error submitting message.");
+      loadingAnimation.style.display = "none";
+    }
+  })
+  .catch(function(error) {
+    console.log("Error submitting message.");
+    loadingAnimation.style.display = "none";
+    console.error(error);
+  });
+});
+
+</script>
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	 <div id="loading-screen">
+       
+	   
+	   
+ <div  class="preloader">
+        <div style="opacity:1" class="preloader-text">
+            <div class="preloader-text-wrap">
+                <div style="-webkit-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(null) rotateZ(30deg) skew(0, 0);-moz-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(null) rotateZ(30deg) skew(0, 0);-ms-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(null) rotateZ(30deg) skew(0, 0);transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(null) rotateZ(30deg) skew(0, 0);opacity:0;transform-style:preserve-3d
+				font-size:35px;margin-bottom:10px;"
+                    class="display-xl preload-text-top"><h1 style="font-size:35px; margin-left:-100px; letter-spacing:0.5px; color:#7b57ff;">O. Monifa</h1></div>
+            </div>
+            <div class="preloader-line-wrap">
+
+
+
+                <div class="preloader-text-wrap btm">
+                    <div style="-webkit-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(0) rotateZ(30deg) skew(0, 0);-moz-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(0) rotateZ(30deg) skew(0, 0);-ms-transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(0) rotateZ(30deg) skew(0, 0);transform:translate3d(0, 150%, 0) scale3d(1, 1, 1) rotateX(90deg) rotateY(0) rotateZ(30deg) skew(0, 0);opacity:0;transform-style:preserve-3d"
+                        class="display-xl preload-text-btm"><h1 style="font-size:35px; margin-bottom:20px; margin-left:-65px;letter-spacing:0.5px; color:#7b57ff;">Sawyerr</h1></div>
+                </div>
+				
+				
+				<div class="line-wrap">
+    <svg width="100%" height="15" viewBox="0 0 200 20" style=" transform: rotate(-10deg); border-radius:200px;">
+        <path d="M0,10 Q100,0 200,10" fill="transparent" stroke="#eee" stroke-width="10" />
+        <path id="curve" d="M0,10 Q100,0 200,10" fill="transparent" stroke="#7b57ff" stroke-width="5" stroke-dasharray="500" stroke-dashoffset="500"/>
+    </svg>
+</div>
+            </div>
+        </div>
+    </div>
+   
+	   
+    </div>
+	
+	
+	
+	
+    <section style="height:30%; padding-bottom:30px;">
+        <nav>
+            <div class="nav-links-container footerNavs">
+                <ul class="nav-links">
+                    <li><a href="#about" class="myCustomButton" style="color:black;">About</a></li>
+                    <li><a href="#experience" class="myCustomButton" style="color:black;">Experience</a></li>
+                    <li><a href="#projects" class="myCustomButton" style="color:black;">Projects</a></li>
+                    <li><a href="#contact" class="myCustomButton" style="color:black;">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+      <center>  <p class="section__textOne myFootText">Copyright &#169; 2024 O. Monifa Sawyerr. All Rights Reserved.</p></center>
+    </section>
+    <script src="script.js"></script>
+	
+
+
+<!-- aos js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+		<script>
+        $(".testmonial_slider_area").owlCarousel({
+				autoplay: true,
+				slideSpeed:1000,
+				items : 3,
+				loop: true,
+				nav:true,
+				navText:['<i class="fa fa-arrow-left"></i>','<i class="fa fa-arrow-right"></i>'],
+				margin: 30,
+				dots: true,
+				responsive:{
+					320:{
+						items:1
+					},
+					767:{
+						items:2
+					},
+					600:{
+						items:2
+					},
+					1000:{
+						items:3
+					}
+				}
+				
+			});
+    </script>
+
+
+<script>
+    // After the window is fully loaded, remove the loading screen and then initialize AOS
+    window.addEventListener('load', () => {
+        const loadingScreen = document.getElementById('loading-screen');
+        
+        // Delay hiding the loading screen for at least 30 seconds
+        setTimeout(() => {
+            loadingScreen.style.display = 'none';
+            
+            // Initialize AOS after the loading screen is removed
+            AOS.init({
+                duration: 800,
+                delay: 100
+            });
+        }, 3000); // 30 seconds delay
+    });
+	
+	
+	
+	
+</script>
+
+
+
+  <!-- Cursor element -->
+  <div data-cursor></div>
+
+
+
+
+</body>
+
+</html>
